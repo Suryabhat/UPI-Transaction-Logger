@@ -88,7 +88,8 @@ python upi_qr_logger.py
 ## 📌 Sample Default UPI ID
 
 ```text
-suryanarayanabhat1508@okhdfcbank  Your UPI ID
+Your Default UPI ID.
+Eg: abc@okaxisbank
 ```
 
 Feel free to add your own UPI IDs or modify for different apps.
@@ -121,7 +122,7 @@ This project is open-source and free to use.
 
 ## 🤝 Contributions
 
-Feel free to fork this repo and open a pull request if you have something to improve or add. Suggestions and bug reports are welcome via [Issues](https://github.com/yourusername/your-repo-name/issues)!
+Feel free to fork this repo and open a pull request if you have something to improve or add. Suggestions and bug reports are welcome via [Issues](https://github.com/Suryabhat/UPI-Transaction-Logger/issues)!
 
 ---
 
