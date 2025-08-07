@@ -60,12 +60,8 @@ python upi_qr_logger.py
    * Filter transactions by date, type (credit/debit), or view all.
      
 6. **Packages Used**:
-    | Package       | Purpose                                                                 |
-| ------------- | ----------------------------------------------------------------------- |
-| `qrcode`      | To generate UPI QR codes                                                |
-| `sqlite3`     | To handle database operations using SQLite (comes built-in with Python) |
-| `datetime`    | To get and format timestamps (built-in module)                          |
-| `prettytable` | To display transaction records in a tabular format                      |
+   * The project uses a few essential Python packages to handle its core functionalities. The `qrcode` package is used to generate UPI QR codes   that can be scanned for payments. To manage the transaction data, the project utilizes `sqlite3`, which is a built-in Python module for interacting with SQLite databases. The `datetime` module, also built-in, is used to fetch and format timestamps for logging transactions. For displaying transaction history in a readable table format, the `prettytable` package is used. Together, these packages enable the creation, tracking, and display of UPI transactions in a simple command-line interface.
+
 
 ---
 
