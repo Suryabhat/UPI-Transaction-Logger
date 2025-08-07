@@ -47,7 +47,7 @@ else:
 print(f"\nCurrent Balance: ₹{current_balance:.2f}")
 
 # Define default UPI IDs
-UPI_1 = "suryanarayanabhat1508@okhdfcbank"
+UPI_1 = "Your UPI ID"
 #UPI_2 = "exampleuser@okicici"
 
 # UPI selection by the user
@@ -167,3 +167,4 @@ else:
 
 # Close the database connection
 conn.close()
+
