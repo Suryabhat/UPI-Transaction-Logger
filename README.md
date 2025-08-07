@@ -57,8 +57,15 @@ python upi_qr_logger.py
    * Press `Enter` to confirm or `F` to cancel the transaction.
 
 5. **View Transactions**:
-
    * Filter transactions by date, type (credit/debit), or view all.
+     
+6. **Packages Used**:
+    | Package       | Purpose                                                                 |
+| ------------- | ----------------------------------------------------------------------- |
+| `qrcode`      | To generate UPI QR codes                                                |
+| `sqlite3`     | To handle database operations using SQLite (comes built-in with Python) |
+| `datetime`    | To get and format timestamps (built-in module)                          |
+| `prettytable` | To display transaction records in a tabular format                      |
 
 ---
 
