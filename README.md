@@ -28,3 +28,110 @@ Install required Python packages:
 
 ```bash
 pip install qrcode[pil] prettytable
+````
+
+Ensure you are using **Python 3.6+**.
+
+---
+
+## ▶️ How to Use
+
+1. **Run the Script**:
+
+```bash
+python upi_qr_logger.py
+```
+
+2. **Choose UPI ID**:
+
+   * Select default UPI ID or enter a new one.
+
+3. **Enter Transaction Amount**:
+
+   * Positive → Credit
+   * Negative → Debit (checks for sufficient balance)
+
+4. **Scan & Confirm**:
+
+   * QR code opens automatically.
+   * Press `Enter` to confirm or `F` to cancel the transaction.
+
+5. **View Transactions**:
+
+   * Filter transactions by date, type (credit/debit), or view all.
+
+---
+
+## 🗃️ Database Tables
+
+1. **`transactions`**
+   Stores every transaction with:
+
+   * `upi_id`, `app_name`, `url`, `amount`, `transaction_type`, `timestamp`, `balance`
+
+2. **`balance`**
+   Tracks the latest balance after each transaction.
+
+---
+
+## 📦 Project Structure
+
+```
+.
+├── upi_qr_logger.py     # Main script
+├── transactions.db      # SQLite DB (auto-created)
+└── README.md            # This file
+```
+
+---
+
+## 📌 Sample Default UPI ID
+
+```text
+suryanarayanabhat1508@okhdfcbank  Your UPI ID
+```
+
+Feel free to add your own UPI IDs or modify for different apps.
+
+---
+
+## 📸 Preview
+
+Upon confirming, the QR code looks like this (for payment apps like GPay):
+
+> ✅ Supports UPI URL format:
+> `upi://pay?pa=UPI_ID&pn=Recipient%20Name&am=Amount&mc=1234`
+
+---
+
+## 🧰 Future Improvements
+
+* GUI for easier interaction
+* Support for multiple apps (PhonePe, Paytm)
+* Export to CSV/PDF
+* Graphs for expense/income tracking
+
+---
+
+## 📄 License
+
+This project is open-source and free to use.
+
+---
+
+## 🤝 Contributions
+
+Feel free to fork this repo and open a pull request if you have something to improve or add. Suggestions and bug reports are welcome via [Issues](https://github.com/yourusername/your-repo-name/issues)!
+
+---
+
+## 🙋‍♂️ Author
+
+**Surya Narayana Bhat**
+
+```
+
+---
+
+Let me know if you also want a custom banner image, GitHub badge, or table of contents added!
+```
