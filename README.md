@@ -130,9 +130,3 @@ Feel free to fork this repo and open a pull request if you have something to imp
 
 **Surya Narayana Bhat**
 
-```
-
----
-
-Let me know if you also want a custom banner image, GitHub badge, or table of contents added!
-```
